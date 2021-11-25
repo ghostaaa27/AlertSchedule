@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "703516967033",
+    "firebase_url": "https://alertschedule-7435e.firebaseio.com",
+    "project_id": "alertschedule-7435e",
+    "storage_bucket": "alertschedule-7435e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:703516967033:android:6f4f42f515e369eaa954a8",
+        "android_client_info": {
+          "package_name": "com.example.alertschedule"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "703516967033-52kntk0436r4pv805mbjtb5cqssdlpdn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.alertschedule",
+            "certificate_hash": "bf23d403bd9862a57e7e5e1aed3ae915c190f46e"
+          }
+        },
+        {
+          "client_id": "703516967033-deegl5vmeevs246g3rpist7cr9tal22d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkEdDLn-FRZaGeK-mEk_5LwhTul048TAE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "703516967033-deegl5vmeevs246g3rpist7cr9tal22d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

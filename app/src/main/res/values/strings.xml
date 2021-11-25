@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">AlertSchedule</string>
+
+    <string-array name="ModesNames">
+
+        <item>Ringmode</item>
+        <item>Vibration</item>
+        <item>Silent</item>
+
+    </string-array>
+
+
+    <string name="aboutMe">I am Abdullah Al-Amin\n
+
+    Currently I am Studying cse at\n
+    Khulna University of Engineering &amp; Technology,Khulna.\n
+    Email: alaminbdgb@gmail.com</string>
+
+
+</resources>

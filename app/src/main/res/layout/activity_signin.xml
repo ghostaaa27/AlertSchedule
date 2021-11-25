@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#54ABF0"
+    tools:context=".signin">
+
+    <EditText
+        android:id="@+id/signinemailboxID"
+        android:layout_width="match_parent"
+        android:padding="15dp"
+        android:layout_height="79dp"
+        android:layout_marginTop="15dp"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/signinpassboxID"
+        android:layout_width="match_parent"
+        android:padding="15dp"
+        android:layout_height="79dp"
+        android:layout_marginTop="15dp"
+        android:hint="Password" />
+
+    <Button
+        android:id="@+id/signinbuttonID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:text="Sign In"
+        android:textSize="25dp"/>
+
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Have you not registered?"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/signuptextviewID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Sign Up"
+        android:textSize="25dp"/>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:id="@+id/signinprogressID"/>
+
+
+</LinearLayout>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Add_New_Schedule">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center">
+
+        <TextClock
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="65dp"
+            android:gravity="center">
+        </TextClock>
+        <TextView
+            android:layout_marginTop="60dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clock"
+            android:textColor="#03A9F4"
+            android:textSize="25dp"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_marginTop="35dp"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:orientation="horizontal"
+        android:weightSum="6">
+
+
+        <Button
+            android:id="@+id/starttimebuttonID"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Select Start Time :"
+            android:textAllCaps="false" />
+
+        <TextView
+            android:id="@+id/starttimetextviewID"
+            android:layout_width="148dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_weight="5"
+            android:gravity="center_horizontal"
+            android:text="10:45 AM"
+            android:textSize="45dp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="35dp"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:orientation="horizontal"
+        android:weightSum="6">
+
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:id="@+id/endtimebuttonID"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Select End Time :"
+            android:textAllCaps="false" />
+
+        <TextView
+            android:id="@+id/endtimetextviewID"
+            android:layout_width="128dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:layout_marginTop="5dp"
+            android:gravity="center_horizontal"
+            android:text="10:45 AM"
+            android:textSize="45dp" />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <TextView
+            android:layout_width="13dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:text="Select Mode : " />
+
+        <Spinner
+            android:layout_marginTop="8dp"
+            android:id="@+id/modespinnerID"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="2" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/savebuttonID"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Save"
+        android:textSize="25dp"/>
+
+</LinearLayout>
